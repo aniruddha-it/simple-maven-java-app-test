@@ -8,7 +8,6 @@ pipeline{
             steps{
                 echo "========Checkout Git Code========"
                 sh 'mvn --version'
-               //sh 'git clone https://github.com/jenkins-docs/simple-java-maven-app.git'
             }
         }
         stage("Build"){
